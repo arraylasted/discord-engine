@@ -1,10 +1,10 @@
 {
-	"name":"discord",
+	"name":"discord-engine",
 	"description":"A LP/Discworld inspired MUD server running on Node.JS and MooTools.",
-	"version":"0.8.2",
+	"version":"0.8.3",
 	"repository": {
 		"type": "git",
-		"url": "http://github.com/yuffster/discord-engine"
+		"url": "http://github.com/arraylasted/discord-engine"
 	},
 	"dependencies": {
 		"mootools":">=1.4.4",
@@ -13,8 +13,8 @@
 		"glob":">3.0.1"
 	},
 	"author": {
-		"name": "Michelle Steigerwalt",
-		"homepage": "http://msteigerwalt.com"
+		"name": "arraylast",
+		"homepage": "http://github.com/arraylasted"
 	},
 	"scripts":{
 		"test": "node ./tests/run_tests.js"
