@@ -1,23 +1,34 @@
 {
-	"name":"discord-engine",
-	"description":"A LP/Discworld inspired MUD server running on Node.JS and MooTools.",
-	"version":"0.8.3",
-	"repository": {
-		"type": "git",
-		"url": "http://github.com/arraylasted/discord-engine"
-	},
-	"dependencies": {
-		"mootools":">=1.4.4",
-		"describe":">=0.8.0",
-		"string-color":">=0.8.0",
-		"glob":">3.0.1"
-	},
-	"author": {
-		"name": "arraylast",
-		"homepage": "http://github.com/arraylasted"
-	},
-	"scripts":{
-		"test": "node ./tests/run_tests.js"
-	},
-	"main": "server.js"
+  "name": "@arraylasted/discord-engine",
+  "description": "A LP/Discworld inspired MUD server running on Node.JS and MooTools.",
+  "version": "0.8.3",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/arraylasted/discord-engine.git"
+  },
+  "dependencies": {
+    "mootools": ">=1.4.4",
+    "describe": ">=0.8.0",
+    "string-color": ">=0.8.0",
+    "glob": ">3.0.1"
+  },
+  "author": "arraylast",
+  "scripts": {
+    "test": "node ./tests/run_tests.js",
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "bugs": {
+    "url": "https://github.com/arraylasted/discord-engine/issues"
+  },
+  "homepage": "https://github.com/arraylasted/discord-engine#readme",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [
+    "npm",
+    "search-engine",
+    "discord"
+  ],
+  "license": "ISC"
 }
