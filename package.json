@@ -1,10 +1,10 @@
 {
-  "name": "@arraylasted/discord-engine",
+  "name": "arraylast_discord-engine",
   "description": "A LP/Discworld inspired MUD server running on Node.JS and MooTools.",
-  "version": "0.8.3",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com/arraylasted/discord-engine.git"
+    "url": "https://github.com/arraylasted/discord-engine"
   },
   "dependencies": {
     "mootools": ">=1.4.4",
