@@ -16,4 +16,3 @@ Here's an example world using the Discord engine:
 		start_room: 'lobby'
 	}).listen(8000);
 	
-For more information, check out http://github.com/Yuffster/discord-example.
